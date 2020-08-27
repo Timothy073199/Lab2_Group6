@@ -1,16 +1,57 @@
-body{ 
-    font-size: 20px;
-  }
+h4{
+  font-family: Comic Sans MS;
+  background-color: lightblue;
+  margin: auto;
+  border: 1px solid black;
+  text-align: left;
+  width: 750px;
+  padding: 3px 18px 3px 18px;
+}
+div{
+  text-indent: 60px;
+}
+.CloseButton{
+  position: absolute;
+  right: 375px;
+  top: 13px;
+}
+.InfoBox{
+  font-family: Comic Sans MS;
+  border: 1px solid black;    
+  margin: auto;
+  width: 750px;
+  padding: 3px 18px 3px 18px;
+}
+#type{
+  position:relative;
+  left:70px;
+}
+#title{
+  position:relative;
+  left:70px;
+  width:450px;
+}
+#date{
+  position:relative;
+  left:63px;
+}
+#posting{
+  position:relative;
+  left:60px;
+}
+.buttons{  
+  text-align: center;
+  text-indent: 10px;
+}
+#submit{
+  font-family: Comic Sans MS;
+  width: 100px;
+  height: 25px;
+ 
+}
+#reset{
+  font-family: Comic Sans MS;
+  width: 100px;
+  height: 25px;
   
-  #input{
-  
-  padding: 10px 10px;
-  
-  }
-  
-  button {
-    padding: 7px 7px;
-    text-align: center;
-    font-size: 15px;
-  }
-  
+}
