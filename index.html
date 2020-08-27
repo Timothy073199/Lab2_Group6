@@ -6,8 +6,14 @@
 <title>Create a new event</title>
 </head> 
 <body>
-     <form name ="myevent" onsubmit="return validateForm()">
-    <pre>
+        <h4>Create a New Event</h4>
+        <div class="CloseButton">
+                <button>x</button>
+        </div>
+        <div class="InfoBox">
+         <form name ="myevent" name="EventForm" onsubmit="return validateForm()" onreset="return cancelForm()">
+        <br>
+        <div>
     <label for = "type">Event Type: <select type = "type" name="event">
             <option> Please choose event type </option>
             <option> Conferences </option>
@@ -16,35 +22,56 @@
             <option> Workshops </option>
             <option> VIP experiences</option>
             </select> 
-            
+        </div>    
+        <br>
+        <div>   
     <label for="title">Event Title:</label> <input type="text" name="title" placeholder="Please insert Event Title">
-
+        </div>    
+        <br>
+        <div>
     <label for="dates">Event Dates:</label> <input type="date" name="dates1" 
     min="2020-08-22" max="2020-12-22"> to <input type="date" name="dates2" 
     min="2020-08-22" max="2020-12-22">
- 
+        </div>    
+        <br>
+        <div>      
     <label for="posting">Posting Date:</label> <input type="date" name="posting" min="2020-08-22" max="2020-12-22"></pre><br>
-
+        </div>    
+        <br>
+        <div>       
     <input type="checkbox" id="Question1" name="Question1">
-    <label for="Question1"> Is registration required?</label><br><br>
-
+    <label for="Question1"> Is registration required?</label>
+        </div>    
+        <br>
+        <div>       
     <input type="checkbox" id="Question2" name="Question2">
-    <label for="Question2"> Is this event associated with any Family Programs?</label><br><br>
-
+    <label for="Question2"> Is this event associated with any Family Programs?</label>
+        </div>    
+        <br>
+        <div>    
     <input type="checkbox" id="Question3" name="Question3">
-    <label for="Question3"> Upon registration completion, are users to receive an auto generated email?</label><br><br>
-
+    <label for="Question3"> Upon registration completion, are users to receive an auto generated email?</label>
+        </div>    
+        <br>
+        <div>     
     <input type="checkbox" id="Question4" name="Question4">
-    <label for="Question4"> Is there a point of contact?</label><br><br>
-
+    <label for="Question4"> Is there a point of contact?</label>
+        </div>    
+        <br>
+        <div>        
     <input type="checkbox" id="Question5" name="Question5">
-    <label for="Question5"> Is there a hosting command point of contact?</label><br><br>
-
-<center>
-<pre><input type ="submit" value = "Save" id = "button" onclick="validateForm()"> <input type="button" onclick="location.href='index.html';" value="Cancel" id = "button"></pre>
-</center>
+    <label for="Question5"> Is there a hosting command point of contact?</label>
+        </div>    
+        <br>
+        
+        <div class="buttons">
+         <input type="submit" id="submit" value = "Save"/>
+         <input type="reset" id="reset" value = "Cancel"/>
+        </div>
+        
 </form>
 <p>Initial Project</p>
 <p>Updated javascript</p>
+</div>
 </body>
 </html>
