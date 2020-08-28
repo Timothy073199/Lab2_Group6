@@ -1,3 +1,9 @@
+body{
+  padding-top: 2%;
+  background-color: none;
+  background-image: url("C:\Users\user\OneDrive\Pictures\sky.jpg");
+}
+
 h4{
   font-family: Candara;
   background-color: lightblue;
@@ -13,7 +19,9 @@ div{
 .CloseButton{
   position: absolute;
   right: 375px;
-  top: 13px;
+  top: 11px;
+  padding-top: 2%;
+  cursor: pointer;
 }
 .InfoBox{
   font-family: Candara;
@@ -21,6 +29,8 @@ div{
   margin: auto;
   width: 750px;
   padding: 3px 18px 3px 18px;
+  border-style: outset;
+  background-color: skyblue;
 }
 #type{
   position:relative;
@@ -42,6 +52,7 @@ div{
 .buttons{  
   text-align: center;
   text-indent: 10px;
+  length: 20px;
 }
 #submit{
   font-family: Candara;
